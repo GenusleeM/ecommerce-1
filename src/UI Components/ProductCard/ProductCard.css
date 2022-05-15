@@ -1,0 +1,306 @@
+.ProductCard{
+    width: 15%;
+    height: fit-content;
+    margin: 2vw 0;
+    margin-right: 1.8vw;
+}
+.ProductCard:last-child{
+    margin-right: unset;
+}
+.ProductCard:nth-child(6n){
+    margin-right:unset;
+}
+.ProductCard-img{
+    width: 100%;
+    height: 15vw;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.ProductCard-img-price{
+    width: fit-content;
+    height: fit-content;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .2rem .5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ProductCard-img-price span{
+    font-size: 1vw;
+    font-weight: 300;
+}
+.ProductCard-img svg{
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+}
+.ProductCard-title{
+    width: 100%;
+    height: fit-content;
+    padding: .5rem 0;
+}
+.ProductCard-title h1{
+    font-size: 1vw;
+    font-weight: 600;
+}
+.ProductCard-title h2{
+    font-size: 1vw;
+    font-weight: 300;
+}
+.ProductCard-title-text{
+    width: 100%;
+    height: 1.2vw;
+    overflow: hidden;
+    margin-bottom: .2rem;
+}
+.ProductCard-buy{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.ProductCard-buy h3{
+    font-size: 1vw;
+}
+.ProductCard-buy button{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0.5rem;
+    border: 1px solid rgb(201, 201, 201);
+    color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ProductCard-buy button span{
+    font-size: .8vw;
+    font-weight: 500;
+    margin-left: .5rem;
+}
+.ProductCard-buy button svg{
+    font-size: 1vw;
+}
+.ProductCard-buy button:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+.ProductCard-buy button:hover span{
+    color: rgb(0, 0, 0);
+}
+.ProductCard-buy button:hover svg{
+    color: rgb(103, 159, 30);
+}
+
+
+/* Tablet */
+.ProductCard-tablet{
+    width: 21vw;
+    height: fit-content;
+    margin-right: 2vw;
+    margin-bottom: 1rem;
+}
+.ProductCard-tablet:nth-child(4n){
+    margin-right: 0vw;
+}
+.ProductCard-tablet:last-child{
+    margin-right: 0;
+}
+.ProductCard-img-tablet{
+    width: 100%;
+    height: 22vw;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.ProductCard-img-price-tablet{
+    width: fit-content;
+    height: fit-content;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .2rem .5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ProductCard-img-price-tablet span{
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+.ProductCard-img-tablet svg{
+    font-size: 4.5vw;
+    color: rgb(255, 255, 255);
+}
+.ProductCard-title-tablet{
+    width: 100%;
+    height: fit-content;
+    padding: .5rem 0;
+}
+.ProductCard-title-tablet h1{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+.ProductCard-title-tablet h2{
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+.ProductCard-title-text-tablet{
+    width: 100%;
+    height: 1.4vw;
+    overflow: hidden;
+    margin-bottom: .2rem;
+}
+.ProductCard-buy-tablet{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.ProductCard-buy-tablet h3{
+    font-size: 1.2vw;
+}
+.ProductCard-buy-tablet button{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0.5rem;
+    border: 1px solid rgb(201, 201, 201);
+    color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ProductCard-buy-tablet button span{
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-left: .5rem;
+}
+.ProductCard-buy-tablet button svg{
+    font-size: 1.2vw;
+}
+.ProductCard-buy-tablet button:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+.ProductCard-buy-tablet button:hover span{
+    color: rgb(0, 0, 0);
+}
+.ProductCard-buy-tablet button:hover svg{
+    color: rgb(103, 159, 30);
+}
+
+
+/* Mobile */
+.ProductCard-mobile{
+    width: 42vw;
+    height: fit-content;
+    margin-right: 5.8vw;
+    margin-bottom: 10vw
+}
+.ProductCard-mobile:nth-child(2n){
+    margin-right: 0;
+}
+.ProductCard-img-mobile{
+    width: 100%;
+    height: 50vw;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.ProductCard-img-price-mobile{
+    width: fit-content;
+    height: fit-content;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .3rem .5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ProductCard-img-price-mobile span{
+    font-size: 3vw;
+    font-weight: 300;
+}
+.ProductCard-img-mobile svg{
+    font-size: 10vw;
+    color: rgb(255, 255, 255);
+}
+.ProductCard-title-mobile{
+    width: 100%;
+    height: fit-content;
+    padding: .5rem 0;
+}
+.ProductCard-title-mobile h1{
+    font-size: 3.5vw;
+    font-weight: 500;
+}
+.ProductCard-title-mobile h2{
+    font-size: 2.5vw;
+    font-weight: 300;
+}
+.ProductCard-title-text-mobile{
+    width: 100%;
+    height: 3.8vw;
+    overflow: hidden;
+    margin-bottom: .3rem;
+}
+.ProductCard-buy-mobile{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.ProductCard-buy-mobile h3{
+    font-size: 2.5vw;
+}
+.ProductCard-buy-mobile button{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0.5rem;
+    border: 1px solid rgb(201, 201, 201);
+    color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ProductCard-buy-mobile button span{
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-left: .5rem;
+}
+.ProductCard-buy-mobile button svg{
+    font-size: 2.5vw;
+}
+.ProductCard-buy-mobile button:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+.ProductCard-buy-mobile button:hover span{
+    color: rgb(0, 0, 0);
+}
+.ProductCard-buy-mobile button:hover svg{
+    color: rgb(103, 159, 30);
+}

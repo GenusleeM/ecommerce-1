@@ -1,0 +1,71 @@
+.AdminNavBar-navInfo{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #000;
+}
+.AdminNavBar-logo{
+    width: 7.5rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.AdminNavBar-logo svg{
+    font-size: 1.4rem;
+    margin-right: 1rem;
+}
+.AdminNavBar-logo h1{
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.AdminNavBar-navInfo-container{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.AdminNavBar-navInfo-list{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+.AdminNavBar-navInfo-list h2{
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-right: 2vw;
+    cursor: pointer;
+}
+.AdminNavBar-navInfo-list h2:last-child{
+    margin-right: 0;
+}
+.AdminNavBar-navInfo-user{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.AdminNavBar-navInfo-user h2{
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-right: 2vw;
+    cursor: pointer;
+}
+.AdminNavBar-navInfo-user h2:last-child{
+    margin-right: 0;
+}

@@ -1,0 +1,255 @@
+.Footer {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding-top: 2rem;
+  border-top: 2px solid #000;
+}
+.Footer-container {
+  width: 96%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 2%;
+}
+.Footer-brand {
+  min-width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Footer-brand-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Footer-logo {
+  width: 6vw;
+  height: 4vw;
+  background-image: url(../../Asset/icon-adidas-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0.7rem;
+}
+.Footer-brand h1 {
+  font-size: 1vw;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.Footer-item {
+  min-width: 20%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.Footer-item h1 {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.Footer-item h2 {
+  font-size: 1.2vw;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  color: #000;
+}
+.Footer-item a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2vw;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.Footer-hours {
+  min-width: 20%;
+  height: fit-content;
+}
+.Footer-hours h1 {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.Footer-hours h2 {
+  font-size: 1.2vw;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+.Footer-reserve {
+  height: fit-content;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem 2%;
+}
+.Footer-reserve h1 {
+  font-size: 1vw;
+  font-weight: 300;
+}
+.Footer-reserve h2 {
+  font-size: 1vw;
+  font-weight: 300;
+}
+
+
+/* Tbalet */
+.Footer-tablet {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding-top: 2rem;
+  border-top: 2px solid #000;
+}
+.Footer-container-tablet {
+  width: 96%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 2%;
+}
+.Footer-brand-tablet {
+  min-width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Footer-brand-container-tablet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Footer-logo-tablet {
+  width: 7.5vw;
+  height: 5vw;
+  background-image: url(../../Asset/icon-adidas-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0.7rem;
+}
+.Footer-brand-tablet h1 {
+  font-size: 1.5vw;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.Footer-item-tablet {
+  min-width: 20%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.Footer-item-tablet h1 {
+  font-size: 1.7vw;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.Footer-item-tablet h2 {
+  font-size: 1.7vw;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.Footer-item-tablet a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5vw;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.Footer-hours-tablet {
+  min-width: 20%;
+  height: fit-content;
+}
+.Footer-hours-tablet h1 {
+  font-size: 1.7vw;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.Footer-hours-tablet h2 {
+  font-size: 1.5vw;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+.Footer-reserve-tablet {
+  height: fit-content;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem 2%;
+}
+.Footer-reserve-tablet h1 {
+  font-size: 1.5vw;
+  font-weight: 300;
+}
+.Footer-reserve-tablet h2 {
+  font-size: 1.5vw;
+  font-weight: 300;
+}
+
+
+/* Mobile */
+.Footer-mobile{
+  width: 100%;
+  height: fit-content;
+}
+.Footer-container-mobile{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Footer-logo-mobile{
+  width: 13.6vw;
+  height: 9vw;
+  background-image: url(../../Asset/icon-adidas-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0.3rem;
+}
+.Footer-logo-text-mobile{
+  width: fit-content;
+  height: fit-content;
+}
+.Footer-logo-text-mobile h1{
+  font-size: 3vw;
+  font-weight: 300;
+}
+
+.Footer-reserve-mobile{
+  height: fit-content;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: .5rem;
+  padding: 1rem 2%;
+}
+.Footer-reserve-mobile h1 {
+  font-size: 3vw;
+  font-weight: 300;
+}

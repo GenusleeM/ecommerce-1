@@ -1,0 +1,653 @@
+.NavBar {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 0.5rem;
+}
+.NavBar-info {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 0.5rem 0;
+}
+.NavBar-info h1 {
+  font-size: 1vw;
+  color: #fff;
+}
+.NavBar-nav {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem 0;
+}
+
+.NavBar-logo {
+  width: 6vw;
+  height: 4vw;
+  background-image: url(../../Asset/icon-adidas-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.NavBar-container-link {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.NavBar-link {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.NavBar-link a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+.NavBar-link span {
+  text-decoration: none;
+  color: #000;
+  margin-right: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.2vw;
+  font-weight: 600;
+  cursor: none;
+}
+.NavBar-link-small {
+  text-decoration: none;
+  color: #000;
+  margin-right: 1.5rem !important;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+}
+
+.NavBar-link input {
+  width: fit-content;
+  height: 2vw;
+  padding: 0 0.5rem;
+  background-color: #e9ecef;
+  border: 1px solid #fff;
+  margin-right: 1rem;
+}
+.NavBar-link input:focus {
+  outline: none;
+  border: 1px solid #000;
+}
+.NavBar-link input:hover {
+  border: 1px solid #000;
+}
+.NavBar-link svg {
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+.NavBar-cart {
+  width: 30vw;
+  height: fit-content;
+  position: absolute;
+  top: 2.8vw;
+  right: -.2vw;
+  z-index: 1;
+  display: none;
+  overflow: hidden;
+}
+.NavBar-cart-show {
+  display: block;
+  opacity: 0;
+  animation: navBarShow 0.5s forwards;
+}
+@keyframes navBarShow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.NavBar-cart-list {
+  width: 96.5%;
+  height: fit-content;
+  background-color: #e9ecef;
+  padding: 0.5rem;
+  padding-top: 1rem;
+}
+.NavBar-cart-list-empty {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.NavBar-cart-list-empty h3{
+  font-size: 1.2vw;
+  font-weight: 600;
+  padding: 1rem;
+  padding-bottom: .5rem;
+  letter-spacing: 1px;
+  color: #212021;
+}
+.NavBar-cart-list-empty h4{
+  font-size: 1vw;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #212021;
+  opacity:.5;
+
+}
+.NavBar-cart-btn {
+  background-color: #fff;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+/* Tablet */
+.NavBar-tablet {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 0.5rem;
+}
+.NavBar-info-tablet {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 0.5rem 0;
+}
+.NavBar-info-tablet h1 {
+  font-size: 1vw;
+  color: #fff;
+}
+.NavBar-nav-tablet {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem 0;
+}
+
+.NavBar-logo-tablet {
+  width: 6vw;
+  height: 4vw;
+  background-image: url(../../Asset/icon-adidas-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.NavBar-container-link-tablet {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.NavBar-link-tablet {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.NavBar-link-tablet a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 1rem;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.NavBar-link-tablet span {
+  text-decoration: none;
+  color: #000;
+  margin-right: 1rem;
+  text-transform: uppercase;
+  font-size: 1.3vw;
+  font-weight: 600;
+  cursor: pointer;
+}
+.NavBar-link-small-tablet {
+  text-decoration: none;
+  color: #000;
+  margin-right: 1.3rem !important;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+}
+
+.NavBar-link-tablet input {
+  width: fit-content;
+  height: 2vw;
+  padding: 0.3rem 0.5rem;
+  background-color: #e9ecef;
+  border: 1px solid #fff;
+  margin-right: 1rem;
+}
+.NavBar-link-tablet input:focus {
+  outline: none;
+  border: 1px solid #000;
+}
+.NavBar-link-tablet input:hover {
+  border: 1px solid #000;
+}
+.NavBar-link-tablet svg {
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+.NavBar-cart-tablet {
+  width: 40vw;
+  height: fit-content;
+  position: absolute;
+  top: 7.8vw;
+  right: 5.1vw;
+  z-index: 1;
+  display: none;
+}
+.NavBar-cart-show-tablet {
+  display: block;
+  opacity: 0;
+  animation: navBarShow 0.5s forwards;
+  z-index: 4;
+}
+@keyframes navBarShow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.NavBar-cart-list-tablet {
+  width: 96.5%;
+  height: fit-content;
+  background-color: #e9ecef;
+  padding: 0.5rem;
+  padding-top: 1rem;
+}
+.NavBar-cart-list-empty-tablet {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.NavBar-cart-list-empty-tablet h3{
+  font-size: 1.5vw;
+  font-weight: 600;
+  padding: 1rem;
+  padding-bottom: .5rem;
+  letter-spacing: 1px;
+  color: #212021;
+}
+.NavBar-cart-list-empty-tablet h4{
+  font-size: 1.2vw;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #212021;
+  opacity:.5;
+
+}
+.NavBar-cart-btn-tablet {
+  background-color: #fff;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+.NavBar-cart-btn-tablet span {
+  font-size: 1.5vw;
+}
+
+/* Mobile */
+.NavBar-mobile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.NavBar-logo-mobile {
+  width: 12vw;
+  height: 8vw;
+  background-image: url(../../Asset/icon-adidas-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  cursor: pointer;
+}
+.NavBar-mobile-bag{
+  width: fit-content;
+  height: fit-content;
+  z-index: 2;
+}
+.NavBar-mobile-bag svg{
+  font-size: 5vw;
+    cursor: pointer;
+    margin-top: 1.5vw;
+}
+.NavBar-mobile h1 {
+  color: #fff;
+  font-size: 5vw;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+.NavBar-icon-mobile {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NavBar-icon-mobile svg {
+  font-size: 5vw;
+  z-index: 2;
+}
+
+
+.NavBar-link-mobile svg {
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+.NavBar-list-container{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.315);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  opacity: 0;
+  z-index: 11;
+}
+
+.NavBar-list-mobile {
+  width: 70vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  opacity: 0;
+  z-index: 12;
+}
+
+.menuOpen {
+  display: block !important;
+  animation: name-of-animation .5s forwards;
+}
+@keyframes name-of-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.NavBar-list-icon-mobile {
+  width: auto;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  color: #212021;
+  margin: 0 6%;
+  padding: 6vw 0;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.NavBar-list-icon-mobile input {
+  width: 70%;
+  height: 8vw;
+  padding: 0 0.5rem;
+  background-color: #e9ecef;
+  border: 1px solid #fff;
+}
+.NavBar-list-icon-mobile input:focus {
+  outline: none;
+  border: 1px solid #000;
+}
+.NavBar-list-icon-mobile input:hover {
+  border: 1px solid #000;
+}
+.NavBar-list-icon-mobile svg {
+  background-color: rgb(255, 255, 255);
+  color: #212021;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.NavBar-list-container-mobile {
+  width: auto;
+  height: 80vh;
+  margin: 0 10%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.NavBar-list-item-mobile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  margin-right: 6%;
+}
+
+.NavBar-list-item-mobile a {
+  text-decoration: none;
+  color: #212021;
+  font-size: 4vw;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.NavBar-list-item-mobile span {
+  text-decoration: none;
+  color: #212021;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.NavBar-list-location-mobile {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+.NavBar-list-location-mobile h1 {
+  background-color: rgb(255, 255, 255);
+  color: #212021;
+  font-size: .7rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+.NavBar-list-location-mobile h2 {
+  background-color: rgb(255, 255, 255);
+  color: #212021;
+  font-size: .7rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+/* MobileLandscape */
+.NavBar-mobileLandscape {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 0.5rem;
+}
+.NavBar-info-mobileLandscape {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 0.5rem 0;
+}
+.NavBar-info-mobileLandscape h1 {
+  font-size: 1vw;
+  color: #fff;
+}
+.NavBar-nav-mobileLandscape {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem 0;
+}
+
+.NavBar-logo-mobileLandscape {
+  width: 6vw;
+  height: 4vw;
+  background-image: url(../../Asset/icon-adidas-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.NavBar-container-link-mobileLandscape {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.NavBar-link-mobileLandscape {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.NavBar-link-mobileLandscape a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 1rem;
+  text-transform: uppercase;
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+.NavBar-link-mobileLandscape span {
+  text-decoration: none;
+  color: #000;
+  margin-right: 1rem;
+  text-transform: uppercase;
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+.NavBar-link-small-mobileLandscape {
+  text-decoration: none;
+  color: #000;
+  margin-right: 1rem !important;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+}
+
+.NavBar-link-mobileLandscape input {
+  width: fit-content;
+  height: 2vw;
+  padding: 0.2rem 0.5rem;
+  background-color: #e9ecef;
+  border: 1px solid #fff;
+  margin-right: 1rem;
+  font-size: 1.3vw;
+}
+.NavBar-link-mobileLandscape input:focus {
+  outline: none;
+  border: 1px solid #000;
+}
+.NavBar-link-mobileLandscape input:hover {
+  border: 1px solid #000;
+}
+.NavBar-link-mobileLandscape svg {
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+.NavBar-cart-mobileLandscape {
+  width: 45vw;
+  height: fit-content;
+  position: absolute;
+  top: 9.5vw;
+  right: 5.5vw;
+  z-index: 4;
+  display: none;
+}
+.NavBar-cart-show-mobileLandscape {
+  display: block;
+  opacity: 0;
+  animation: navBarShow 0.5s forwards;
+}
+@keyframes navBarShow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.NavBar-cart-list-mobileLandscape {
+  width: 96.5%;
+  height: fit-content;
+  background-color: #e9ecef;
+  padding: 0.5rem;
+  padding-top: .5rem;
+}
+.NavBar-cart-btn-mobileLandscape {
+  background-color: #fff;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.NavBar-cart-btn-mobileLandscape span {
+  font-size: 1.5vw;
+}

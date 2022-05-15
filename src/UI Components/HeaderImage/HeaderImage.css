@@ -1,0 +1,119 @@
+.HeaderImage-header {
+  width: 100%;
+  height: 35vw;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeaderImage-header video {
+  width: 100%;
+  height: fit-content;
+}
+.HeaderImage-img {
+  width: 100%;
+  height: 35vw;
+  background-color: rgb(224, 224, 224);
+}
+.HeaderImage-header-title {
+  width: 35%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.HeaderImage-header-title-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeaderImage-header-title-top {
+  width: fit-content;
+  height: fit-content;
+}
+
+/* Tablet */
+.HeaderImage-header-tablet {
+  width: 100%;
+  height: 40vw;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeaderImage-header-tablet video {
+  width: 100%;
+  height: fit-content;
+}
+.HeaderImage-img-tablet {
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(224, 224, 224);
+}
+
+/* Mobile */
+.HeaderImage-header-mobile {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeaderImage-header-mobile video {
+  width: 100%;
+  height: fit-content;
+}
+.HeaderImage-img-mobile {
+  width: 100%;
+  height: 65vh;
+  background-color: rgba(224, 224, 224, 0);
+}
+.HeaderImage-header-title-mobile {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.HeaderImage-header-title-container-mobile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeaderImage-header-title-top-mobile {
+  width: fit-content;
+  height: fit-content;
+  padding: 4vw;
+}
+
+/* MobileLandscape */
+.HeaderImage-header-mobileLandscape {
+  width: 100%;
+  height: 65vh;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeaderImage-header-mobileLandscape video {
+  width: 100%;
+  height: fit-content;
+}
+.HeaderImage-img-mobileLandscape {
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(224, 224, 224);
+}

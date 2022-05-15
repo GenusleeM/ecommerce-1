@@ -1,0 +1,102 @@
+.AdminDasboard{
+    width: 100%;
+    height: fit-content;
+}
+.AdminDasboard-earning{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.AdminDasboard-earning-container{
+    width: 60%;
+    height: fit-content;
+}
+.AdminDasboard-earning-iconTotal{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.AdminDasboard-earning-iconTotal-List{
+    width: 20%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-right: 3vw;
+    border-radius: .5rem;
+}
+.AdminDasboard-earning-iconTotal-List:last-child{
+    margin-right: 0;
+}
+.AdminDasboard-earning-iconTotal-List span{
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+.AdminDasboard-earning-iconTotal-List h1{
+    font-size: 1vw;
+    font-weight: 300;
+}
+.AdminDasboard-earning-icon{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50vw;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AdminDasboard-earning-icon svg{
+    font-size: 2vw;
+    color: #fff;
+}
+
+
+.AdminDasboard-topSelling{
+    width: 35%;
+    height: 40vw;
+    padding: 0 1rem;
+    border-radius: .5rem;
+    overflow: auto;
+}
+.AdminDasboard-topSelling-header{
+    width: 100%;
+    height: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+}
+.AdminDasboard-topSelling-header h1{
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.AdminDasboard-topSelling-header h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.AdminDasboard-topSelling-header h2 span{
+    font-size: 1vw;
+    font-weight: 400;
+}
+.AdminDasboard-topSelling-header h2 svg{
+    font-size: 1.2vw;
+    font-weight: 400;
+}

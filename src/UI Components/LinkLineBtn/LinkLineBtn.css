@@ -1,0 +1,54 @@
+.LinkLineBtn {
+  font-size: 1.2vw;
+  padding: 0.5rem 2rem;
+  margin-right: 1rem;
+  border: 1px solid rgb(201, 201, 201);
+  cursor: pointer;
+}
+.LinkLineBtn:last-child {
+  margin-right: 0;
+}
+.LinkLineBtn:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Tablet */
+.LinkLineBtn-tablet {
+  font-size: 1.7vw;
+  padding: 0.5rem 2.5rem;
+  margin-right: 1rem;
+  border: 1px solid rgb(201, 201, 201);
+  cursor: pointer;
+}
+.LinkLineBtn-tablet:last-child {
+  margin-right: 0;
+}
+.LinkLineBtn-tablet:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Mobile */
+.LinkLineBtn-mobile {
+  font-size: 3vw;
+  padding: 0.5rem 8vw;
+  border: 1px solid rgb(201, 201, 201);
+  cursor: pointer;
+}
+.LinkLineBtn:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* MobileLandscape */
+.LinkLineBtn-mobileLandscape {
+  font-size: 1.7vw;
+  padding: 0.5rem 2.5rem;
+  margin-right: 1rem;
+  border: 1px solid rgb(201, 201, 201);
+  cursor: pointer;
+}
+.LinkLineBtn-mobileLandscape:last-child {
+  margin-right: 0;
+}
+.LinkLineBtn-mobileLandscape:hover {
+  border: 1px solid rgb(0, 0, 0);
+}

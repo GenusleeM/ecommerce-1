@@ -1,0 +1,467 @@
+.Gender {
+  width: 100%;
+  min-height: 70vh;
+  /* height: fit-content; */
+}
+.Gender-backTop {
+  width: 3vw;
+  height: 2.5vw;
+  position: fixed;
+  bottom: 8vw;
+  right: 4.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10%;
+  background-color: #fff;
+  padding: 0.5rem;
+  z-index: 1;
+}
+.Gender-backTop svg {
+  color: #000000;
+  font-size: 6vw;
+  margin: 0;
+  margin-bottom: 0.2rem;
+  padding: 0;
+  padding-top: 0.5vw;
+  line-height: 0;
+}
+.Gender-navigation {
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+}
+.Gender-navigation h4 {
+  font-size: 1.2vw;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.Gender-navigation h4 span {
+  font-size: 1.2vw;
+  font-weight: 200;
+  margin: 0 0.3rem;
+}
+.Gender-navigation h4 .back {
+  cursor: pointer;
+  font-weight: 400;
+}
+.Gender-navigation h4 svg {
+  font-size: 1.5vw;
+}
+.Gender-navigation h1 {
+  font-size: 3vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.Gender-title {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+.Gender-search {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Gender-search input {
+  height: 2vw;
+  padding: 0.1vw 2vw;
+  border: 1px solid #000;
+  font-size: 1rem;
+}
+.Gender-search button {
+  width: fit-content;
+  height: 2.3vw;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  border: 1px solid #000;
+  padding: 0.1vw 2vw;
+  cursor: pointer;
+  border-radius: 0;
+  margin-left: .5rem;
+}
+.Gender-productHeader {
+  width: 100%;
+  height: 7vw;
+  background-image: url("../../Asset/product-header.jpeg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Gender-navigation-container {
+  width: 100%;
+  height: fit-content;
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Gender-navigation-container button {
+  width: fit-content;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #000;
+  padding: 0.5rem 2vw;
+  cursor: pointer;
+}
+.Gender-navigation-container button:hover {
+  color: rgb(255, 255, 255);
+  background-color: #000;
+}
+
+.Gender-product {
+  width: 100%;
+  min-height: 70vh;
+  position: relative;
+}
+.infinite-scroll-component__outerdiv {
+  width: 100%;
+  height: fit-content;
+}
+.infinite-scroll-component {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+#infiniteScroll {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Gender-product-loading {
+  width: 100%;
+  height: fit-content;
+}
+.Gender-product-loading h4 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Tablet */
+.Gender-backTop-tablet {
+  width: 3vw;
+  height: 2.5vw;
+  position: fixed;
+  bottom: 11vw;
+  right: 4.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10%;
+  background-color: #fff;
+  padding: 0.5rem;
+  z-index: 10;
+}
+.Gender-backTop-tablet svg {
+  color: #000000;
+  font-size: 6vw;
+  margin: 0;
+  margin-bottom: 0.2rem;
+  padding: 0;
+  padding-top: 0.5vw;
+  line-height: 0;
+}
+.Gender-navigation-tablet {
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+}
+.Gender-navigation-tablet h4 {
+  font-size: 2vw;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.Gender-navigation-tablet h4 span {
+  font-size: 1.3vw;
+  font-weight: 200;
+  margin: 0 0.3rem;
+}
+.Gender-navigation-tablet h4 .back {
+  cursor: pointer;
+  font-weight: 400;
+}
+.Gender-navigation-tablet h4 svg {
+  font-size: 1.5vw;
+}
+.Gender-navigation-tablet h1 {
+  font-size: 4.5vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.Gender-title-tablet {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+.Gender-search-tablet {
+  width: fit-content;
+  height: fit-content;
+}
+.Gender-search-tablet input {
+  width: 18vw;
+  height: 1.2rem;
+  padding: .1rem 1.2rem;
+  border: 1px solid #000;
+}
+.Gender-search-tablet button {
+  width: fit-content;
+  height: 1.5rem;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  border: 1px solid #000;
+  padding: .2rem 1.2rem;
+  cursor: pointer;
+  border-radius: 0;
+  margin-left: .5rem;
+}
+.Gender-navigation-container-tablet {
+  width: 100%;
+  height: fit-content;
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.Gender-navigation-container-tablet button {
+  width: fit-content;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #000;
+  padding: 0.4rem 2vw;
+  cursor: pointer;
+  font-size: 1.7vw;
+}
+.Gender-navigation-container-tablet button:hover {
+  color: rgb(255, 255, 255);
+  background-color: #000;
+}
+.Gender-product-tablet {
+  width: 100%;
+  min-height: calc(85vh - 10vw);
+}
+.infinite-scroll-component__outerdiv {
+  width: 100%;
+  height: fit-content;
+}
+.infinite-scroll-component {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Gender-product-loading {
+  width: 100%;
+  height: fit-content;
+}
+.Gender-product-loading h4 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Mobile */
+.Gender-backTop-mobile {
+  width: 7vw;
+  height: 6.5vw;
+  position: fixed;
+  bottom: 17.4vw;
+  right: 4.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10%;
+  padding: 0.3rem;
+  background-color: rgb(255, 255, 255);
+  z-index: 10;
+}
+.Gender-backTop-mobile svg {
+  color: #000000;
+  font-size: 6vw;
+  margin: 0;
+  margin-bottom: 0.2rem;
+  padding: 0;
+  padding-top: 0.5vw;
+  line-height: 0;
+}
+.Gender-navigation-mobile {
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+.Gender-navigation-mobile h4 {
+  font-size: 3.5vw;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.Gender-navigation-mobile h4 span {
+  font-size: 3.5vw;
+  font-weight: 200;
+  margin: 0 0.3rem;
+}
+.Gender-navigation-mobile h4 .back {
+  cursor: pointer;
+  font-weight: 400;
+}
+.Gender-navigation-mobile h4 svg {
+  font-size: 4.5vw;
+}
+.Gender-navigation-mobile h1 {
+  font-size: 6vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+.Gender-title-mobile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 5vw;
+}
+.Gender-search-mobile {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Gender-search-mobile input {
+  height: .9rem;
+  padding: 0.2rem 1rem;
+  border: 1px solid #000;
+  font-size: .8rem;
+}
+.Gender-search-mobile button {
+  width: fit-content;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  border: 1px solid #000;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  border-radius: 0;
+  margin-left: .5rem;
+}
+.Gender-productHeader-mobile {
+  display: none;
+}
+.Gender-navigation-container-mobile {
+  width: 100%;
+  height: fit-content;
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+  padding: .5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Gender-navigation-container-mobile button {
+  width: fit-content;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #000;
+  padding: 0.4rem 4vw;
+  cursor: pointer;
+  font-size: 3vw;
+}
+.Gender-navigation-container-mobile button:hover {
+  color: rgb(255, 255, 255);
+  background-color: #000;
+}
+.Gender-product-mobile {
+  width: 100%;
+  min-height: calc(72vh - 10vw);
+}
+
+.Gender-product-loading {
+  width: 100%;
+  height: fit-content;
+}
+.Gender-product-loading h4 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* MobileLandscape */
+
+.Gender-backTop-mobileLandscape {
+  width: 3vw;
+  height: 2.5vw;
+  position: fixed;
+  bottom: 10vw;
+  right: 4.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10%;
+  background-color: #fff;
+  padding: 0.5rem;
+  z-index: 10;
+}
+.Gender-backTop-mobileLandscape svg {
+  color: #000000;
+  font-size: 6vw;
+  margin: 0;
+  margin-bottom: 0.2rem;
+  padding: 0;
+  padding-top: 0.5vw;
+  line-height: 0;
+}

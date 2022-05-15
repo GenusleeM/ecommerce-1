@@ -1,0 +1,269 @@
+.OrderList {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+.OrderList-img {
+  background-color: #fff;
+  width: 20%;
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OrderList-info {
+  width: 80%;
+  height: fit-content;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.OrderList-info h1 {
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+.OrderList-info h2 {
+  font-size: 1vw;
+  font-weight: 200;
+}
+.OrderList-totalItem {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: .5rem;
+}
+.OrderList-totalItem button {
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+.OrderList-totalItem h3 {
+  font-size: 1vw;
+  font-weight: 400;
+  margin: 0 1rem;
+}
+.OrderList-info-btn button{
+    border: 0;
+    cursor: pointer;
+}
+.OrderList-info-btn button svg{
+  font-size: 1rem;
+}
+
+/* Tablet */
+.OrderList-tablet {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+.OrderList-img-tablet {
+  background-color: #fff;
+  width: 30%;
+  height: 10.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OrderList-info-tablet {
+  width: 70%;
+  height: fit-content;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.OrderList-info-tablet h1 {
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+.OrderList-info-tablet h2 {
+  font-size: 1.2vw;
+  font-weight: 200;
+}
+.OrderList-totalItem-tablet {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: .5rem;
+}
+.OrderList-totalItem-tablet button {
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  padding: 0.2rem 0.8rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.OrderList-totalItem-tablet h3 {
+  font-size: 1.5vw;
+  font-weight: 400;
+  margin: 0 1rem;
+}
+.OrderList-info-btn button{
+    border: 0;
+    cursor: pointer;
+}
+.OrderList-info-btn button svg{
+  font-size: 1rem;
+}
+
+/* Mobile */
+.OrderList-mobile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+.OrderList-mobile:last-child {
+  border-bottom: none;
+}
+.OrderList-img-mobile {
+  background-color: #fff;
+  width: 40%;
+  height: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OrderList-info-mobile {
+  width: 100%;
+  height: fit-content;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:flex-end;
+}
+.OrderList-info-mobile h1 {
+  font-size: 3.5vw;
+  font-weight: 400;
+  color: #000;
+}
+.OrderList-info-mobile h2 {
+  font-size: 2.5vw;
+  font-weight: 200;
+}
+.OrderList-totalItem-mobile {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: .5rem;
+}
+.OrderList-totalItem-mobile button {
+  background-color: #e9ecef;
+  border: 0;
+  padding: 0.2rem 0.7rem;
+  cursor: pointer;
+}
+.OrderList-totalItem-mobile button span{ 
+  font-size: 4vw;
+}
+.OrderList-totalItem-mobile h3 {
+  font-size: 3.5vw;
+  font-weight: 400;
+  margin: 0 1rem;
+}
+.OrderList-info-btn-mobile button{
+  background-color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+.OrderList-info-btn-mobile button svg{
+  font-size: 1rem;
+}
+
+
+/* Tablet */
+.OrderList-mobileLandscape {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+.OrderList-img-mobileLandscape {
+  background-color: #fff;
+  width: 25%;
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OrderList-info-mobileLandscape {
+  width: 75%;
+  height: fit-content;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.OrderList-info-mobileLandscape h1 {
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+.OrderList-info-mobileLandscape h2 {
+  font-size: 1vw;
+  font-weight: 200;
+}
+.OrderList-totalItem-mobileLandscape {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: .5rem;
+}
+.OrderList-totalItem-mobileLandscape button {
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  padding: 0.1rem 0.5rem;
+  cursor: pointer;
+  font-size: .8rem;
+}
+.OrderList-totalItem-mobileLandscape h3 {
+  font-size: 1.5vw;
+  font-weight: 400;
+  margin: 0 1rem;
+}
+.OrderList-info-btn-mobileLandscape button{
+    border: 0;
+    cursor: pointer;
+}
+.OrderList-info-btn-mobileLandscape button svg{
+  font-size: .8rem;
+}

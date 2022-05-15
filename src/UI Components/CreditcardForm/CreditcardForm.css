@@ -1,0 +1,467 @@
+.CreditcardForm {
+  width: 100%;
+  height: fit-content;
+}
+.CreditcardFormCustomer {
+  width: 100%;
+  height: fit-content;
+}
+.CreditcardFormCustomer h1 {
+  font-size: 2.5vw;
+  font-weight: 500;
+  margin-bottom: 3vw;
+  padding-bottom: 1vw;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.327);
+}
+.CreditcardFormCustomer form {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 5rem;
+}
+.CreditcardFormCustomer form label {
+  width: 40%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.3rem;
+  font-size: 1vw;
+  margin-right: 2rem;
+  color: rgba(0, 0, 0, 0.629);
+}
+.CreditcardFormCustomer form .CreditcardFormCustomerAddress {
+  width: 60%;
+}
+.CreditcardFormCustomer form .CreditcardFormCustomerAptNum {
+  width: 30%;
+}
+:root {
+  --radius: 2px;
+  --baseFg: dimgray;
+  --baseBg: white;
+  --accentFg: #000000;
+  --accentBg: rgb(201, 201, 201);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.CreditcardFormCustomer form label input {
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--baseFg);
+  border: 1px solid var(--baseFg);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 1em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  margin-top: 0.5rem;
+}
+.CreditcardFormCustomer form label select {
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--baseFg);
+  border: 1px solid var(--baseFg);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 1em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  background-image: linear-gradient(var(--baseFg), var(--baseFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(var(--accentBg) 42%, var(--accentFg) 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom,
+    right bottom;
+  margin-top: 0.5rem;
+}
+.CreditcardFormCustomerPhone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.CreditcardFormCustomerPhone input {
+  margin-top: 0 !important;
+}
+.CreditcardFormCustomerPhoneCode {
+  width: 25%;
+  margin-right: 2%;
+  padding: 0.15vw;
+  font-size: 1vw;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.CreditcardFormCustomerPhoneCode img {
+  width: 2vw;
+  height: 1.5vw;
+  margin-right: 0.2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.CreditcardFormCustomerPhoneNumber {
+  width: 70% !important;
+}
+.CreditcardFormCustomerBtn {
+  margin-top: 3vw;
+  margin-bottom: 5vw;
+}
+
+.CreditcardFormCustomerBtn button {
+  background-color: rgb(0, 0, 0);
+  padding: 0.5rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  border: 0;
+  margin-right: 2vw;
+  background-image: url();
+}
+.CreditcardFormCustomer .PaymentInfo {
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.CreditcardFormCustomer .PaymentInfo label{
+  width: 100%;
+}
+.CreditcardFormCustomer .PaymentInfo .CreditcardFormCustomerExp {
+  width: 40%;
+}
+
+/* Tablet */
+.CreditcardForm-Tablet{
+  width: 100%;
+  height: fit-content;
+}
+.CreditcardFormCustomer-Tablet {
+  width: 100%;
+  height: fit-content;
+}
+.CreditcardFormCustomer-Tablet h1 {
+  font-size: 2.5vw;
+  font-weight: 500;
+  margin-bottom: 3vw;
+  padding-bottom: 1vw;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.327);
+}
+.CreditcardFormCustomer-Tablet form {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 5rem;
+}
+.CreditcardFormCustomer-Tablet form label {
+  width: 44%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.3rem;
+  font-size: 1.5vw;
+  margin-right: 1rem;
+  color: rgba(0, 0, 0, 0.629);
+}
+.CreditcardFormCustomer-Tablet form .CreditcardFormCustomerAddress-Tablet {
+  width: 55%;
+}
+.CreditcardFormCustomer-Tablet form .CreditcardFormCustomerAptNum-Tablet {
+  width: 30%;
+}
+:root {
+  --radius: 2px;
+  --baseFg: dimgray;
+  --baseBg: white;
+  --accentFg: #000000;
+  --accentBg: rgb(201, 201, 201);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.CreditcardFormCustomer-Tablet form label input {
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--baseFg);
+  border: 1px solid var(--baseFg);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 1em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  margin-top: 0.5rem;
+}
+.CreditcardFormCustomer-Tablet form label select {
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--baseFg);
+  border: 1px solid var(--baseFg);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 1em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  background-image: linear-gradient(var(--baseFg), var(--baseFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(var(--accentBg) 42%, var(--accentFg) 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom,
+    right bottom;
+  margin-top: 0.5rem;
+}
+.CreditcardFormCustomerPhone-Tablet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.CreditcardFormCustomerPhone-Tablet input {
+  margin-top: 0 !important;
+}
+.CreditcardFormCustomerPhoneCode-Tablet {
+  width: fit-content;
+  margin-right: 2%;
+  padding: 0.15vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.CreditcardFormCustomerPhoneCode-Tablet img {
+  width: 2vw;
+  height: 1.5vw;
+  margin-right: 0.2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.CreditcardFormCustomerPhoneNumber-Tablet {
+  width: 70% !important;
+}
+.CreditcardFormCustomerBtn-Tablet {
+  margin-top: 3vw;
+  margin-bottom: 5vw;
+}
+
+.CreditcardFormCustomerBtn-Tablet button {
+  background-color: rgb(0, 0, 0);
+  padding: 0.5rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  border: 0;
+  margin-right: 2vw;
+  background-image: url();
+}
+.CreditcardFormCustomer-Tablet .PaymentInfo {
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.CreditcardFormCustomer-Tablet .PaymentInfo label{
+  width: 100%;
+}
+.CreditcardFormCustomer-Tablet .PaymentInfo .CreditcardFormCustomerExp {
+  width: 42%;
+}
+
+
+/* Mobile */
+.CreditcardForm-Mobile{
+  width: 100%;
+  height: fit-content;
+}
+.CreditcardFormCustomer-Mobile {
+  width: 100%;
+  height: fit-content;
+}
+.CreditcardFormCustomer-Mobile h1 {
+  font-size: 7vw;
+  font-weight: 500;
+  margin-bottom: 10vw;
+  padding-bottom: 1vw;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.327);
+}
+.CreditcardFormCustomer-Mobile form {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+
+}
+.CreditcardFormCustomer-Mobile form label {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.3rem;
+  font-size: 4vw;
+  margin-right: 1rem;
+  color: rgba(0, 0, 0, 0.629);
+}
+.CreditcardFormCustomer-Mobile form .CreditcardFormCustomerAddress-Mobile {
+  width: 100%;
+}
+.CreditcardFormCustomer-Mobile form .CreditcardFormCustomerAptNum-Mobile {
+  width: 40%;
+}
+:root {
+  --radius: 2px;
+  --baseFg: dimgray;
+  --baseBg: white;
+  --accentFg: #000000;
+  --accentBg: rgb(201, 201, 201);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.CreditcardFormCustomer-Mobile form label input {
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--baseFg);
+  border: 1px solid var(--baseFg);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 1em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  margin-top: 0.5rem;
+}
+.CreditcardFormCustomer-Mobile form label select {
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--baseFg);
+  border: 1px solid var(--baseFg);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 1em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  background-image: linear-gradient(var(--baseFg), var(--baseFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(var(--accentBg) 42%, var(--accentFg) 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom,
+    right bottom;
+  margin-top: 0.5rem;
+}
+.CreditcardFormCustomerPhone-Mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.CreditcardFormCustomerPhone-Mobile input {
+  margin-top: 0 !important;
+}
+.CreditcardFormCustomerPhoneCode-Mobile {
+  width: 20%;
+  margin-right: 2%;
+  padding: 0.15vw;
+  font-size: 4vw;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.CreditcardFormCustomerPhoneCode-Mobile img {
+  width: 6vw;
+  height: 4.5vw;
+  margin-right: 0.2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.CreditcardFormCustomerPhoneNumber-Mobile {
+  width: 70% !important;
+}
+.CreditcardFormCustomerBtn-Mobile {
+  margin-top: 3vw;
+  margin-bottom: 5vw;
+}
+
+.CreditcardFormCustomerBtn-Mobile button {
+  background-color: rgb(0, 0, 0);
+  padding: 0.5rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  border: 0;
+  margin-right: 2vw;
+  background-image: url();
+}
+.CreditcardFormCustomer-Mobile .PaymentInfo {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.CreditcardFormCustomer-Mobile .PaymentInfo label{
+  width: 100%;
+}
+.CreditcardFormCustomer-Mobile .PaymentInfo .CreditcardFormCustomerExp {
+  width: 43%;
+}
+
+

@@ -1,0 +1,126 @@
+.ProductNotFound {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ProductNotFound-show {
+  display: block !important;
+}
+.ProductNotFound-loading {
+  width: fit-content;
+  height: fit-content;
+  display: none;
+}
+.ProductNotFound-loading h1 {
+  font-size: 2vw;
+  font-weight: 500;
+  color: rgb(158, 158, 158);
+}
+.ProductNotFound-content {
+  width: fit-content;
+  height: fit-content;
+  display: none;
+}
+.ProductNotFound-content svg {
+  font-size: 4vw;
+  margin-bottom: 2vw;
+  color: rgb(158, 158, 158);
+}
+.ProductNotFound-content h1 {
+  font-size: 2vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.5vw;
+  color: rgb(158, 158, 158);
+}
+.ProductNotFound-content p {
+  font-size: 1.2vw;
+  font-weight: 300;
+  color: rgb(158, 158, 158);
+}
+
+/* Tablet */
+.ProductNotFound-tablet {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ProductNotFound-loading-tablet {
+  width: fit-content;
+  height: fit-content;
+  display: none;
+}
+.ProductNotFound-loading-tablet h1 {
+  font-size: 2.5vw;
+  font-weight: 500;
+  color: rgb(158, 158, 158);
+}
+.ProductNotFound-content-tablet {
+  width: fit-content;
+  height: fit-content;
+  display: none;
+}
+.ProductNotFound-content-tablet svg {
+  font-size: 4.5vw;
+  margin-bottom: 2vw;
+  color: rgb(158, 158, 158);
+}
+.ProductNotFound-content-tablet h1 {
+  font-size: 2.5vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.5vw;
+  color: rgb(158, 158, 158);
+}
+.ProductNotFound-content-tablet p {
+  font-size: 1.7vw;
+  font-weight: 300;
+  color: rgb(158, 158, 158);
+}
+/* Mobile */
+.ProductNotFound-mobile {
+  width: 100%;
+  height: calc(55vh - 10vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ProductNotFound-loading-mobile {
+  width: fit-content;
+  height: fit-content;
+  display: none;
+}
+.ProductNotFound-loading-mobile h1 {
+  font-size: 4.5vw;
+  font-weight: 500;
+  color: rgb(158, 158, 158);
+}
+.ProductNotFound-content-mobile {
+  width: fit-content;
+  height: fit-content;
+  display: none;
+}
+.ProductNotFound-content-mobile svg {
+  font-size: 7vw;
+  margin-bottom: 2vw;
+  color: rgb(158, 158, 158);
+}
+.ProductNotFound-content-mobile h1 {
+  font-size: 4.5vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.5vw;
+  color: rgb(158, 158, 158);
+}
+.ProductNotFound-content-mobile p {
+  font-size: 2.7vw;
+  font-weight: 300;
+  color: rgb(158, 158, 158);
+}

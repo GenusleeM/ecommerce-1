@@ -1,0 +1,149 @@
+.LinkImage-img-link {
+  width: 25vw;
+  height: 25vw;
+  margin-right: 2rem;
+}
+.LinkImage-img-link:last-child {
+  margin-right: 0;
+}
+.LinkImage-img-link-title {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.308);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.LinkImage-img-link-title h1 {
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.LinkImage-img-link-title:hover h1 {
+  font-size: 1.5vw;
+  animation: font 0.3s forwards;
+}
+@keyframes font {
+  0% {
+    font-size: 1.5vw;
+  }
+  100% {
+    font-size: 2vw;
+  }
+}
+
+/* Tablet */
+.LinkImage-img-link-tablet {
+  width: 30vw;
+  height: 25vw;
+  margin-right: 1rem;
+}
+.LinkImage-img-link-tablet:last-child {
+  margin-right: 0;
+}
+.LinkImage-img-link-title-tablet {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.308);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.LinkImage-img-link-title-tablet h1 {
+  color: #fff;
+  font-size: 2vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.LinkImage-img-link-title-tablet:hover h1 {
+  font-size: 2vw;
+  animation: font-tablet 0.3s forwards;
+}
+@keyframes font-tablet {
+  0% {
+    font-size: 2vw;
+  }
+  100% {
+    font-size: 2.5vw;
+  }
+}
+
+/* Mobile */
+.LinkImage-img-link-mobile {
+  width: 44vw;
+  height: 42vw;
+  margin-right: 2vw;
+  margin-bottom: 2vw;
+  overflow: hidden;
+}
+.LinkImage-img-link-mobile:nth-child(2n-2) {
+  margin-right: 0;
+}
+.LinkImage-img-link-title-mobile {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.308);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.LinkImage-img-link-title-mobile h1 {
+  color: #fff;
+  font-size: 3vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.LinkImage-img-link-title-mobile:hover h1 {
+  font-size: 2vw;
+  animation: font-mobile 0.3s forwards;
+}
+@keyframes font-mobile {
+  0% {
+    font-size: 3vw;
+  }
+  100% {
+    font-size: 3.5vw;
+  }
+}
+
+
+/* MobileLandscape */
+.LinkImage-img-link-mobileLandscape {
+  width: 30vw;
+  height: 25vw;
+  margin-right: 1rem;
+}
+.LinkImage-img-link-mobileLandscape:last-child {
+  margin-right: 0;
+}
+.LinkImage-img-link-title-mobileLandscape {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.308);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.LinkImage-img-link-title-mobileLandscape h1 {
+  color: #fff;
+  font-size: 2vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.LinkImage-img-link-title-mobileLandscape:hover h1 {
+  font-size: 2vw;
+  animation: font-mobileLandscape 0.3s forwards;
+}
+@keyframes font-mobileLandscape {
+  0% {
+    font-size: 2vw;
+  }
+  100% {
+    font-size: 2.5vw;
+  }
+}

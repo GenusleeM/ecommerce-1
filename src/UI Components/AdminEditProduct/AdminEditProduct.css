@@ -1,0 +1,232 @@
+.AdminEditProduct{
+    width: 100%;
+    height: fit-content;
+}
+.AdminEditProduct-addNewItem{
+    width: 100%;
+    height: fit-content;
+
+}
+.AdminEditProduct-addNewItem-header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.AdminEditProduct-addNewItem-header h1{
+    font-size: 2vw;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.AdminEditProduct-addNewItem-header button{
+    font-size: 1vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: .5rem 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.AdminEditProduct-addNewItem-header button:last-child{
+    margin-right: 0;
+}
+.AdminEditProduct-addNewItem-header button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+.AdminEditProduct-addNewItem-form{
+    width: 100%;
+    height: fit-content;
+}
+.AdminEditProduct-addNewItem-form-info{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3rem 0;
+}
+.AdminEditProduct-addNewItem-form-info h1{
+    font-size: 1.2vw;
+    font-weight: 500;
+    border-right: 1px solid #000;
+    padding: .2rem 2rem;
+}
+.AdminEditProduct-addNewItem-form-info h1 span{
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+.AdminEditProduct-addNewItem-form-info h1:last-child{
+    border-right:0;
+}
+.AdminEditProduct-addNewItem-form-info h1:first-child{
+    padding-left: 0;
+}
+.AdminEditProduct-addNewItem-form-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.AdminEditProduct-addNewItem-form-container input{
+    width: 15vw;
+    padding: .5vw;
+    font-size: 1.2vw;
+    border: 1px solid rgb(235, 235, 235);
+    margin-right: 1rem;
+    text-transform: capitalize;
+}
+.AdminEditProduct-addNewItem-form-container select{
+    width: 15vw;
+    padding: .5vw;
+    font-size: 1.2vw;
+    border: 1px solid rgb(235, 235, 235);
+    margin-right: 1rem;
+    text-transform: capitalize;
+}
+.AdminEditProduct-addNewItem-form-container textarea{
+    width: 25vw;
+    height: 10vw;
+    padding: .5vw;
+    font-size: 1.2vw;
+    border: 1px solid rgb(235, 235, 235);
+    margin-right: 1rem;
+}
+.AdminEditProduct-addNewItem-form-container input:last-child{
+    margin-right: 0;
+}
+.AdminEditProduct-addNewItem-form-size{
+    width: 100%;
+    height: fit-content;
+}
+.AdminEditProduct-addNewItem-form-sizeForm{
+    width: 100%;
+    height: fit-content;
+}
+.AdminEditProduct-addNewItem-form-sizeForm button{
+    font-size: 1vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: .5rem 1rem;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+.AdminEditProduct-addNewItem-form-sizeForm button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.AdminEditProduct-addNewItem-form-sizeForm button:last-child{
+    margin-right: 0;
+}
+.AdminEditProduct-addNewItem-form-sizeList{
+    width: 100%;
+    height: fit-content;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.AdminEditProduct-addNewItem-form-sizeList h1{
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.AdminEditProduct-addNewItem-form-sizeList h2{
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 1rem;
+}
+.AdminEditProduct-addNewItem-form-sizeList h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 1rem;
+    color: #B62E06;
+}
+.AdminEditProduct-addNewItem-form-detailList{
+    width: 100%;
+    height: fit-content;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.AdminEditProduct-addNewItem-form-detailList h1{
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.AdminEditProduct-addNewItem-form-detailList h2{
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+.AdminEditProduct-addNewItem-form-detailList h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    color: #B62E06;
+}
+.AdminEditProduct-addNewItem-form-image{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.AdminEditProduct-addNewItem-form-image h1{
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.AdminEditProduct-addNewItem-form-insertImage{
+   width: 100%;
+    height: fit-content;
+    margin-bottom: 2rem;
+}
+.AdminEditProduct-addNewItem-form-insertImage #productPic{
+    width: fit-content;
+    height: fit-content;
+    text-transform: lowercase;
+}
+.AdminEditProduct-addNewItem-form-displayImage{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+.AdminEditProduct-addNewItem-form-displayImage img{
+    width: 16vw;
+    height: 16vw;
+}
+.AdminEditProduct-addNewItem-form-displayImage span{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .5vw;
+    font-size: 1vw;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}

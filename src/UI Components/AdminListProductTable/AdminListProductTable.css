@@ -1,0 +1,14 @@
+.AdminListProductTable{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0;
+}
+.AdminListProductTable span{
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #f78f87;
+}

@@ -1,0 +1,15 @@
+.AdminFooter {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  margin-top: 2rem;
+  padding: 1rem 2%;
+}
+.AdminFooter h1 {
+  font-size: 1vw;
+  font-weight: 300;
+  color: #fff;
+}

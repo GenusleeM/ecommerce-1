@@ -1,0 +1,23 @@
+.Layout{
+    width: 100%;
+    height: fit-content;
+}
+.Layout-container{
+    width: 100%;
+    height: fit-content;
+}
+.Layout-nav{
+    width: 90%;
+    height: fit-content;
+    margin: 0 5%;
+}
+.Layout-content{
+    width: 90%;
+    height: fit-content;
+    margin: 0 5vw;
+}
+.Layout-footer{
+    width: 90%;
+    height: fit-content;
+    padding: .5rem 5%;
+}

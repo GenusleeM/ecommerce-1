@@ -1,0 +1,70 @@
+.Feature {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 5rem;
+}
+.Feature-header {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+.Feature-header h1 {
+  font-size: 2.5vw;
+}
+.Feature-conten {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Tablet */
+.Feature-tablet {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 4rem;
+}
+.Feature-header-tablet {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+.Feature-header-tablet h1 {
+  font-size: 3vw;
+}
+.Feature-conten-tablet {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Mobile */
+.Feature-mobile {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+.Feature-header-mobile {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 1rem;
+}
+.Feature-header-mobile h1 {
+  font-size: 4vw;
+}
+.Feature-conten-mobile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}

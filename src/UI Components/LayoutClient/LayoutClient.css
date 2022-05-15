@@ -1,0 +1,42 @@
+.LayoutClient{
+    width: 100%;
+    height: fit-content;
+}
+.LayoutClient-container{
+    width: 100%;
+    height: fit-content;
+}
+.LayoutClient-nav{
+    width: 90%;
+    height: fit-content;
+    margin: 0 5%;
+}
+.LayoutClient-content{
+    width: 90%;
+    min-height: 80vh;
+    margin: 0 5vw;
+}
+.LayoutClient-footer{
+    width: 90%;
+    height: fit-content;
+    padding: .5rem 5%;
+}
+
+/* Tablet */
+.LayoutClient-content-tablet{
+    width: 90%;
+    min-height: 53.5vh;
+    margin: 0 5vw;
+}
+/* Tablet */
+.LayoutClient-content-mobile{
+    width: 90%;
+    min-height: 70vh;
+    margin: 0 5vw;
+}
+/* Mobile Landscape */
+.LayoutClient-content-MobileLandscape{
+    width: 90%;
+    min-height: 75vh;
+    margin: 0 5vw;
+}

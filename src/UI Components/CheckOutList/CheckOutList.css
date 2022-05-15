@@ -1,0 +1,540 @@
+.CheckOutList {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+.CheckOutList:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.CheckOutList-img {
+  background-color: #fff;
+  width: 20%;
+  height: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.CheckOutList-info {
+  width: 80%;
+  height: fit-content;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.CheckOutList-info-detail {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  z-index: 3;
+}
+.CheckOutList-info h1 {
+  font-size: 1.2vw;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+.CheckOutList-info h2 {
+  font-size: 1vw;
+  font-weight: 200;
+}
+.CheckOutList-info p {
+  font-size: 1vw;
+  font-weight: 300;
+}
+.CheckOutList-info h3 {
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+.CheckOutList-info-DetailInfo{
+  width: 50%;
+  height: fit-content;
+}
+.CheckOutList-info-detail-size {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.CheckOutList-info-detail-size p{
+  margin-bottom: .5rem;
+}
+:root {
+  --radius: 2px;
+  --baseFg: dimgray;
+  --baseBg: white;
+  --accentFg: #000000;
+  --accentBg: rgb(201, 201, 201);
+}
+.CheckOutList-info-detail-size select{
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--baseFg);
+  border: 1px solid var(--baseFg);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 2.5em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  background-image: linear-gradient(var(--baseFg), var(--baseFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(var(--accentBg) 42%, var(--accentFg) 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom, right bottom;   
+}
+.CheckOutList-info-detail-size .size-empty select{
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: rgb(235, 94, 93);
+  border: 1px solid rgb(235, 94, 93);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 2.5em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  background-image: linear-gradient(rgb(235, 94, 93), rgb(235, 94, 93)),
+    linear-gradient(-135deg, transparent 50%, rgb(235, 94, 93) 50%),
+    linear-gradient(-225deg, transparent 50%, rgb(235, 94, 93) 50%),
+    linear-gradient(rgb(235, 94, 93) 42%, #ffffff 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom, right bottom;   
+}
+.CheckOutList-totalItem {
+  width: 25%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CheckOutList-totalItem button {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  border: 0;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+.CheckOutList-totalItem h3 {
+  font-size: 1vw;
+  font-weight: 400;
+  margin: 0 1rem;
+}
+.CheckOutList-info-btn {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 1;
+}
+.CheckOutList-info-btn button {
+  width: fit-content;
+  border: 1px solid #000;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.CheckOutList-info-btn button:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+.CheckOutList-info-btn button svg {
+  font-size: 1.2vw;
+  background-color: rgba(255, 255, 255, 0);
+  margin-right: 0.5rem;
+  color: rgb(0, 0, 0);
+}
+.CheckOutList-info-btn button:hover svg {
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}
+.CheckOutList-info-btn button span {
+  font-size: 1.2vw;
+  color: rgb(0, 0, 0);
+}
+.CheckOutList-info-btn button:hover span {
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}
+
+
+/* Tablet */
+.CheckOutList-Tablet {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+.CheckOutList-Tablet:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.CheckOutList-img-Tablet {
+  background-color: #fff;
+  width: 27%;
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.CheckOutList-info-Tablet {
+  width: 73%;
+  height: fit-content;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.CheckOutList-info-detail-Tablet {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0rem;
+  z-index: 3;
+}
+.CheckOutList-info-Tablet h1 {
+  font-size: 1.7vw;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+.CheckOutList-info-Tablet h2 {
+  font-size: 1.5vw;
+  font-weight: 200;
+  margin-bottom: 1px;
+}
+.CheckOutList-info-Tablet p {
+  font-size: 1.5vw;
+  font-weight: 300;
+}
+.CheckOutList-info-Tablet h3 {
+  font-size: 1.7vw;
+  font-weight: 500;
+}
+.CheckOutList-info-DetailInfo-Tablet{
+  width: 50%;
+  height: fit-content;
+}
+.CheckOutList-info-detail-size-Tablet {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.CheckOutList-info-detail-size-Tablet p{
+  margin-bottom: .5rem;
+}
+.CheckOutList-info-detail-size-Tablet select{
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--baseFg);
+  border: 1px solid var(--baseFg);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 2.5em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  background-image: linear-gradient(var(--baseFg), var(--baseFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(var(--accentBg) 42%, var(--accentFg) 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom, right bottom;   
+}
+.CheckOutList-info-detail-size-Tablet .size-empty select{
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: rgb(235, 94, 93);
+  border: 1px solid rgb(235, 94, 93);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 2.5em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  background-image: linear-gradient(rgb(235, 94, 93), rgb(235, 94, 93)),
+    linear-gradient(-135deg, transparent 50%, rgb(235, 94, 93) 50%),
+    linear-gradient(-225deg, transparent 50%, rgb(235, 94, 93) 50%),
+    linear-gradient(rgb(235, 94, 93) 42%, #ffffff 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom, right bottom;   
+}
+.CheckOutList-totalItem-Tablet {
+  width: 40%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CheckOutList-totalItem-Tablet button {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  border: 0;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+.CheckOutList-totalItem-Tablet h3 {
+  font-size: 1.7vw;
+  font-weight: 400;
+  margin: 0 .5rem;
+}
+.CheckOutList-info-btn-Tablet {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 1;
+}
+.CheckOutList-info-btn-Tablet button {
+  width: fit-content;
+  border: 1px solid #000;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.CheckOutList-info-btn-Tablet button:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+.CheckOutList-info-btn-Tablet button svg {
+  font-size: 1.7vw;
+  background-color: rgba(255, 255, 255, 0);
+  margin-right: 0.5rem;
+  color: rgb(0, 0, 0);
+}
+.CheckOutList-info-btn-Tablet button:hover svg {
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}
+.CheckOutList-info-btn-Tablet button span {
+  font-size: 1.7vw;
+  color: rgb(0, 0, 0);
+}
+.CheckOutList-info-btn-Tablet button:hover span {
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}
+
+
+/* Mobile */
+.CheckOutList-Mobile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+.CheckOutList-Mobile:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.CheckOutList-img-Mobile {
+  background-color: #fff;
+  width: 27%;
+  height: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.CheckOutList-info-Mobile {
+  width: 73%;
+  height: fit-content;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.CheckOutList-info-detail-Mobile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0rem;
+  z-index: 3;
+}
+.CheckOutList-info-Mobile h1 {
+  font-size: 3.2vw;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+.CheckOutList-info-Mobile h2 {
+  font-size: 3vw;
+  font-weight: 200;
+  margin-bottom: 1px;
+}
+.CheckOutList-info-Mobile p {
+  font-size: 3vw;
+  font-weight: 300;
+}
+.CheckOutList-info-Mobile h3 {
+  font-size: 3vw;
+  font-weight: 500;
+}
+.CheckOutList-info-DetailInfo-Mobile{
+  width: 50%;
+  height: fit-content;
+}
+.CheckOutList-info-detail-size-Mobile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.CheckOutList-info-detail-size-Mobile p{
+  margin-bottom: .5rem;
+}
+.CheckOutList-info-detail-size-Mobile select{
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--baseFg);
+  border: 1px solid var(--baseFg);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 2.5em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  background-image: linear-gradient(var(--baseFg), var(--baseFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(var(--accentBg) 42%, var(--accentFg) 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom, right bottom;   
+}
+.CheckOutList-info-detail-size-Mobile .size-empty select{
+  cursor: pointer;
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: rgb(235, 94, 93);
+  border: 1px solid rgb(235, 94, 93);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 2.5em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  background-image: linear-gradient(rgb(235, 94, 93), rgb(235, 94, 93)),
+    linear-gradient(-135deg, transparent 50%, rgb(235, 94, 93) 50%),
+    linear-gradient(-225deg, transparent 50%, rgb(235, 94, 93) 50%),
+    linear-gradient(rgb(235, 94, 93) 42%, #ffffff 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom, right bottom;   
+}
+.CheckOutList-totalItem-Mobile {
+  width: 45%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CheckOutList-totalItem-Mobile button {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  border: 0;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+.CheckOutList-totalItem-Mobile h3 {
+  font-size: 3vw;
+  font-weight: 400;
+  margin: 0 .2rem;
+}
+.CheckOutList-info-btn-Mobile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 1;
+}
+.CheckOutList-info-btn-Mobile button {
+  width: fit-content;
+  border: 1px solid #000;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.CheckOutList-info-btn-Mobile button:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+.CheckOutList-info-btn-Mobile button svg {
+  font-size: 3vw;
+  background-color: rgba(255, 255, 255, 0);
+  margin-right: 0.5rem;
+  color: rgb(0, 0, 0);
+}
+.CheckOutList-info-btn-Mobile button:hover svg {
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}
+.CheckOutList-info-btn-Mobile button span {
+  font-size: 3vw;
+  color: rgb(0, 0, 0);
+}
+.CheckOutList-info-btn-Mobile button:hover span {
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}

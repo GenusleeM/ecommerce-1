@@ -1,0 +1,114 @@
+.Proccessing{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Confirmation{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ConfirmationContainer{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+.ConfirmationContainer h1{
+    font-size: 3vw;
+    font-weight: 500;
+}
+.ConfirmationContainer h2{
+    font-size: 1.9vw;
+    font-weight: 500;
+}
+.ConfirmationContainer p{
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+.ConfirmationContainer button{
+    font-size: 1.3vw;
+    font-weight: 300;
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    padding: .5rem 2rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+/* Tablet */
+.Confirmation-Tablet{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ConfirmationContainer-Tablet{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+.ConfirmationContainer-Tablet h1{
+    font-size: 4vw;
+    font-weight: 500;
+}
+.ConfirmationContainer-Tablet h2{
+    font-size: 2.4vw;
+    font-weight: 500;
+}
+.ConfirmationContainer-Tablet p{
+    font-size: 1.8vw;
+    font-weight: 300;
+}
+.ConfirmationContainer-Tablet button{
+    font-size: 1.8vw;
+    font-weight: 300;
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    padding: .5rem 2rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+
+/* Mobile */
+.Confirmation-Mobile{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ConfirmationContainer-Mobile{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+.ConfirmationContainer-Mobile h1{
+    font-size: 6vw;
+    font-weight: 500;
+}
+.ConfirmationContainer-Mobile h2{
+    font-size: 4vw;
+    font-weight: 500;
+}
+.ConfirmationContainer-Mobile p{
+    font-size: 3vw;
+    font-weight: 300;
+}
+.ConfirmationContainer-Mobile button{
+    font-size: 4vw;
+    font-weight: 300;
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    padding: .5rem 2rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
