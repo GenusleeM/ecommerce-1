@@ -10,7 +10,7 @@ export default function ConfirmationMobile(props) {
     localStorage.setItem("cart", JSON.stringify([]));
     setTimeout(() => {
       navigate("/");
-    }, 2000);
+    }, 1000);
   };
   return (
     <div className="Confirmation-Mobile">
