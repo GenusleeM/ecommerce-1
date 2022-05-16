@@ -111,7 +111,7 @@ export const DataProvider = (props) => {
   const [newDataCart, setNewDataCart] = useState([]);
   const [newCartItem, setNewCartItem] = useState([]);
   const [removeCartIte, setRemoveCartIte] = useState([]);
-  console.log(cart)
+  
 
   // CART DOUBLE LIST TRIGER
   const [cartDoubleList, setCartDoubleList] = useState([]);

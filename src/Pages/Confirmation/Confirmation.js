@@ -41,8 +41,8 @@ export default function Confirmation() {
 
   setTimeout(() => {
     localStorage.setItem("pay_confirm", JSON.stringify([]));
-    newData.setCart([])
-    newData.setCreditcardForm(false)
+    newData.setCart([]);
+    newData.setCreditcardForm(false);
     newData.setForchReload(true);
   }, 3000);
 
@@ -58,13 +58,31 @@ export default function Confirmation() {
         )}
       </Desktop>
       <Tablet>
-        <ConfirmationTablet name={dataTransaction} />
+        {proccessingData !== true ? (
+          <ConfirmationTablet name={dataTransaction} />
+        ) : (
+          <div className="Proccessing">
+            <h1>Proccessing...</h1>
+          </div>
+        )}
       </Tablet>
       <Mobile>
-        <ConfirmationMobile name={dataTransaction} />
+        {proccessingData !== true ? (
+          <ConfirmationMobile name={dataTransaction} />
+        ) : (
+          <div className="Proccessing">
+            <h1>Proccessing...</h1>
+          </div>
+        )}
       </Mobile>
       <MobileLandscape>
-        <ConfirmationMobileLandscape name={dataTransaction} />
+        {proccessingData !== true ? (
+          <ConfirmationMobileLandscape name={dataTransaction} />
+        ) : (
+          <div className="Proccessing">
+            <h1>Proccessing...</h1>
+          </div>
+        )}
       </MobileLandscape>
     </>
   );
