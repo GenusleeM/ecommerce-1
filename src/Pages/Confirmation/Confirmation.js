@@ -20,21 +20,19 @@ export default function Confirmation() {
   const navigate = useNavigate();
 
   const [dataTransaction, setDataTransaction] = useState([]);
-  const [proccessingData, setProccessingData] = useState(true);
 
   useEffect(() => {
     const fullName = [];
     const data = JSON.parse(localStorage.getItem("pay_confirm"));
 
     if (data.length === 0) {
-      navigate("/");
+      navigate("/"); 
     } else {
       const firstName = data[1].customer.firstName;
       const lastName = data[1].customer.lastName;
       fullName.push(`${firstName} ${lastName}`);
       setTimeout(() => {
         setDataTransaction(fullName);
-        setProccessingData(false);
       }, 2000);
     }
   }, []);
@@ -49,40 +47,16 @@ export default function Confirmation() {
   return (
     <>
       <Desktop>
-        {proccessingData !== true ? (
-          <ConfirmationDesktop name={dataTransaction} />
-        ) : (
-          <div className="Proccessing">
-            <h1>Proccessing...</h1>
-          </div>
-        )}
+        <ConfirmationDesktop name={dataTransaction} />
       </Desktop>
       <Tablet>
-        {proccessingData !== true ? (
-          <ConfirmationTablet name={dataTransaction} />
-        ) : (
-          <div className="Proccessing">
-            <h1>Proccessing...</h1>
-          </div>
-        )}
+        <ConfirmationTablet name={dataTransaction} />
       </Tablet>
       <Mobile>
-        {proccessingData !== true ? (
-          <ConfirmationMobile name={dataTransaction} />
-        ) : (
-          <div className="Proccessing">
-            <h1>Proccessing...</h1>
-          </div>
-        )}
+        <ConfirmationMobile name={dataTransaction} />
       </Mobile>
       <MobileLandscape>
-        {proccessingData !== true ? (
-          <ConfirmationMobileLandscape name={dataTransaction} />
-        ) : (
-          <div className="Proccessing">
-            <h1>Proccessing...</h1>
-          </div>
-        )}
+        <ConfirmationMobileLandscape name={dataTransaction} />
       </MobileLandscape>
     </>
   );
